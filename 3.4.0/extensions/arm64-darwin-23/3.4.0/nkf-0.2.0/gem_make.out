@@ -1,0 +1,18 @@
+current directory: /Users/muhammadusman/Documents/Test/ReactNativeDrawerTest/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/muhammadusman/Documents/Test/ReactNativeDrawerTest/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250312-80516-6m44y5 sitelibdir\=./.gem.20250312-80516-6m44y5 clean
+
+current directory: /Users/muhammadusman/Documents/Test/ReactNativeDrawerTest/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250312-80516-6m44y5 sitelibdir\=./.gem.20250312-80516-6m44y5
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/muhammadusman/Documents/Test/ReactNativeDrawerTest/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250312-80516-6m44y5 sitelibdir\=./.gem.20250312-80516-6m44y5 install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250312-80516-6m44y5
+
+current directory: /Users/muhammadusman/Documents/Test/ReactNativeDrawerTest/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250312-80516-6m44y5 sitelibdir\=./.gem.20250312-80516-6m44y5 clean
