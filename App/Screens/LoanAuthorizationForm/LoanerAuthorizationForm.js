@@ -25,7 +25,7 @@ import RNFS from "react-native-fs";
 import { widthPercentageToDP as wp } from "react-native-responsive-screen";
 import Icon from "react-native-vector-icons/MaterialIcons";
 
-const axios = require("axios");
+import axios from "axios";
 const termsArray = [
   "1. I am the only authorized driver for the Vehicle unless additional drivers are listed. I confirm that the Vehicle is in good, safe mechanical condition and will return it in the same condition.",
   "2. I agree to follow all applicable federal, provincial, and municipal laws, rules, and regulations while operating the Vehicle. I will indemnify THE DEALER for any infractions.",

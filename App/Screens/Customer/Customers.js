@@ -27,11 +27,11 @@ import CustomerCard from "./CustomerCard";
 import DeleteModal from "../Home/onDeleteModal";
 import LogOutModal from "../Home/LogoutModal";
 import { SafeAreaView } from "react-native-safe-area-context";
-import CustomSearchBar from "../../Components/SearchBar/CustomSearchBar";
+import SearchBar from "react-native-dynamic-search-bar";
 import filter from "lodash.filter";
 import { logOut } from "../../Redux/Actions/authActions";
 
-var axios = require("axios");
+import axios from "axios";
 
 const Customers = (props) => {
   const { navigation, accessToken, baseUrl, dealer, logOut } = props;
@@ -300,13 +300,13 @@ const Customers = (props) => {
           </View>
         </View>
 
-        <View style={styles.searchContainer}>
-          <CustomSearchBar
-            placeholder="Search customers..."
-            onChangeText={handleSearch}
-            style={styles.searchBar}
-          />
-        </View>
+        <SearchBar // Search bar
+          placeholder="Search here"
+          onPress={() => { }}
+          style={{ borderRadius: 0, marginTop: -10 }}
+          onChangeText={(text) => handleSearch(text)}
+          onClearPress={() => setCustomers(tmpData)}
+        />
 
         <View style={{ padding: 15 }}>
           <View style={{ marginTop: wp(2), paddingBottom: wp(22) }}>
@@ -343,31 +343,14 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(mapStateToProps, mapDispatchToProps)(Customers);
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: backgroundColor,
-  },
   header: {
+    width: undefined,
+    height: hp("8"),
+    paddingTop: hp("1"),
     flexDirection: "row",
+    alignItems: "center",
     justifyContent: "space-between",
-    alignItems: "center",
-    paddingHorizontal: wp("5%"),
-    paddingVertical: hp("2%"),
-    backgroundColor: white,
-    borderBottomWidth: 1,
-    borderBottomColor: lightGrey,
-  },
-  headerLeft: {
-    flex: 1,
-  },
-  headerRight: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  headerText: {
-    fontSize: wp("5%"),
-    color: black,
-    fontWeight: "bold",
+    marginHorizontal: wp("5"),
   },
   statCard: {
     marginBottom: hp("3"),
@@ -387,24 +370,5 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: lightGrey,
     backgroundColor: "#FFFFFF",
-  },
-  searchContainer: {
-    paddingHorizontal: wp("5%"),
-    paddingVertical: hp("2%"),
-    backgroundColor: white,
-  },
-  searchBar: {
-    width: "100%",
-    height: hp("6%"),
-    backgroundColor: white,
-    borderRadius: wp("2%"),
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
   },
 });

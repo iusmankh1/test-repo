@@ -18,7 +18,7 @@ import { Text1, Text2 } from "../TextComponent/TextComponent";
 import { black, mainBlue } from "../../Assets/colors/colors";
 import Entypo from "react-native-vector-icons/Entypo";
 import AntDesign from "react-native-vector-icons/AntDesign";
-import CustomSearchBar from "../SearchBar/CustomSearchBar";
+import SearchBar from "react-native-dynamic-search-bar";
 import {
   greenBlue,
   darkBlueGrey,
@@ -201,7 +201,7 @@ const ModalComponent = ({
             </Text>
           </View>
           <View style={{ marginVertical: 5 }}>
-            <CustomSearchBar // Search bar
+            <SearchBar // Search bar
               placeholder="Search here"
               onPress={() => {}}
               onChangeText={(text) => onHandleSearch(text)}

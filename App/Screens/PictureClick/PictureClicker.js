@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Image, Platform } from 'react-native'
 import DocumentScanner from 'react-native-document-scanner-plugin'
 import ImgToBase64 from "react-native-image-base64";
-const axios = require("axios");
+import axios from "axios";
 import { connect } from "react-redux";
 import { devBaseURL } from "../../Config/networkModule";
 import Spinner from "react-native-loading-spinner-overlay";

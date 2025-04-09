@@ -29,7 +29,7 @@ import Entypo from "react-native-vector-icons/Entypo";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import { connect } from "react-redux";
 import { devBaseURL } from "../../../Config/networkModule";
-const axios = require("axios");
+import axios from "axios";
 import {
   mainBlue,
   backgroundColor,

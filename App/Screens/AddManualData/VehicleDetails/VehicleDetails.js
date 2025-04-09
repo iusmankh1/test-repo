@@ -35,8 +35,8 @@ import {
 } from "../../../Assets/colors/colors";
 import { devBaseURL } from "../../../Config/networkModule";
 import Spinner from "react-native-loading-spinner-overlay";
-const axios = require("axios");
-import _ from 'lodash';
+import axios from "axios";
+import filter from "lodash.filter";
 import { connect } from "react-redux";
 
 const VehicleDetails = (props) => {
@@ -852,7 +852,7 @@ const VehicleDetails = (props) => {
 
   const transmissionHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(transmissionListTemp, (item) => {
+    const filteredData = filter(transmissionListTemp, (item) => {
       return containsTran(item, formattedQuery);
     });
     setTransmissionList(filteredData);
@@ -873,7 +873,7 @@ const VehicleDetails = (props) => {
 
   const makeHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(makeListTemp, (item) => {
+    const filteredData = filter(makeListTemp, (item) => {
       return containsMake(item, formattedQuery);
     });
     setMakeList(filteredData);
@@ -900,7 +900,7 @@ const VehicleDetails = (props) => {
     console.log(modalListTemp);
     console.log("====================================");
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(modalListTemp, (item) => {
+    const filteredData = filter(modalListTemp, (item) => {
       return containsModal(item, formattedQuery);
     });
     setModalList(filteredData);
@@ -925,7 +925,7 @@ const VehicleDetails = (props) => {
 
   const exteriorHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(exteriorListTemp, (item) => {
+    const filteredData = filter(exteriorListTemp, (item) => {
       return containsExterior(item, formattedQuery);
     });
     setExteriorList(filteredData);
@@ -946,7 +946,7 @@ const VehicleDetails = (props) => {
 
   const interiorHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(interiorListTemp, (item) => {
+    const filteredData = filter(interiorListTemp, (item) => {
       return containsInterior(item, formattedQuery);
     });
     setInteriorList(filteredData);
@@ -967,7 +967,7 @@ const VehicleDetails = (props) => {
 
   const doorHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(doorsListTemp, (item) => {
+    const filteredData = filter(doorsListTemp, (item) => {
       return containsDoor(item, formattedQuery);
     });
     setDoorsList(filteredData);
@@ -988,7 +988,7 @@ const VehicleDetails = (props) => {
 
   const drivelineHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(drivelineListTemp, (item) => {
+    const filteredData = filter(drivelineListTemp, (item) => {
       return containsDriveline(item, formattedQuery);
     });
     setDrivelineList(filteredData);
@@ -1009,7 +1009,7 @@ const VehicleDetails = (props) => {
 
   const fuelHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(fuelListTemp, (item) => {
+    const filteredData = filter(fuelListTemp, (item) => {
       return containsFuel(item, formattedQuery);
     });
     setFuelList(filteredData);
@@ -1030,7 +1030,7 @@ const VehicleDetails = (props) => {
 
   const yearHandleSearch = (text) => {
     const formattedQuery = text.toString().toLowerCase();
-    const filteredData = _.filter(yearListTemp, (item) => {
+    const filteredData = filter(yearListTemp, (item) => {
       return containsYear(item, formattedQuery);
     });
     setYearList(filteredData);
@@ -1051,7 +1051,7 @@ const VehicleDetails = (props) => {
 
   const styleHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(styleListTemp, (item) => {
+    const filteredData = filter(styleListTemp, (item) => {
       return containsStyle(item, formattedQuery);
     });
     setStyleList(filteredData);
@@ -1072,7 +1072,7 @@ const VehicleDetails = (props) => {
 
   const engineHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(engineListTemp, (item) => {
+    const filteredData = filter(engineListTemp, (item) => {
       return containsEngine(item, formattedQuery);
     });
     setEngineList(filteredData);
@@ -1093,7 +1093,7 @@ const VehicleDetails = (props) => {
 
   const categoryHandleSearch = (text) => {
     const formattedQuery = text.toLowerCase();
-    const filteredData = _.filter(categoryListTemp, (item) => {
+    const filteredData = filter(categoryListTemp, (item) => {
       return containCategory(item, formattedQuery);
     });
     setCategoryList(filteredData);

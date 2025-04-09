@@ -38,7 +38,8 @@ import MainCard from "./CardComponent";
 import AddCarComponent from "./AddCarComponent";
 import LogOutModal from "./LogoutModal";
 import { devBaseURL } from "../../Config/networkModule";
-const axios = require("axios");
+import axios from "axios";
+
 import { connect } from "react-redux";
 import DeleteModal from "./onDeleteModal";
 
@@ -64,21 +65,21 @@ const Home = (props) => {
 
   const getCarsData = async () => {
     console.log("==============Get cars data ======================");
-    console.log("Base URL:", baseUrl || devBaseURL);
-    console.log("Access Token:", accessToken);
+    console.log(baseUrl);
+    console.log(accessToken);
     console.log("====================================");
     setSpinner(true);
-    try {
-      const link = `${baseUrl || devBaseURL}/applistings`;
-      const response = await axios.get(link, {
+    const link = `${(baseUrl || devBaseURL)}/applistings`;
+    console.log(accessToken);
+    await axios
+      .get(link, {
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${accessToken}`,
         },
-      });
-
-      const { data, status } = response;
-      if (data) {
+      })
+      .then((response) => {
+        const { data, status } = response;
         setData(data);
         //set stats
         let active = 0,
@@ -97,20 +98,13 @@ const Home = (props) => {
         if (data != null && data.length > 0) {
           setOutroCommentsText(data[0].outrocomments);
         }
-      } else {
-        console.log("No data received from API");
-        setData([]);
-        setTempData([]);
-      }
-    } catch (error) {
-      console.log("API Error:", error.response?.data || error.message);
-      // Only logout if it's an authentication error
-      if (error.response?.status === 401) {
+        setSpinner(false);
+      })
+      .catch((e) => {
         logOut();
-      }
-    } finally {
-      setSpinner(false);
-    }
+        setSpinner(false);
+        // alert(e);
+      });
   };
 
   const onSelectItem = async ({ item }) => {

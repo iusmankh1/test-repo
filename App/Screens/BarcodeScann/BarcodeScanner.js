@@ -17,7 +17,7 @@ import {Text1, Text2} from '../../Components/TextComponent/TextComponent';
 //   heightPercentageToDP as hp,
 // } from 'react-native-responsive-screen';
 
-const axios = require('axios');
+// const axios = require('axios');
 
 // import {devBaseURL} from '../../Config/networkModule';
 
@@ -175,47 +175,47 @@ const BarcodeScannerScreen = props => {
   // };
 
   return (
+    <Text1 style={{color: 'white'}}>Reset</Text1>
     // device != null &&
     // hasPermission && (
-      <>
-        <Text1 style={{color: 'white'}}>Reset</Text1>
-        {/* <StatusBar barStyle="light-content" backgroundColor="#000000" />
-        <Camera
-          style={{ width: "100%", height: "70%" }}
-          device={device}
-          isActive={!isScanned}
-          frameProcessor={frameProcessor}
-          frameProcessorFps={10}
-          audio={false}
-        />
-        <RNHoleView
-          holes={[
-            {
-              x: wp("8.5%"),
-              y: hp("26%"),
-              width: wp("83%"),
-              height: hp("20%"),
-              borderRadius: 10,
-            },
-          ]}
-          style={styles.rnholeView}
-        />
-        <TouchableOpacity
-          onPress={() => resetBarcode()}
-          style={{
-            width: 200,
-            marginTop: 50,
-            height: 80,
-            borderRadius: 10,
-            backgroundColor: mainBlue,
-            alignSelf: "center",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <Text1 style={{ color: "white" }}>Reset</Text1>
-        </TouchableOpacity> */}
-      </>
+    //   <>
+    //     <StatusBar barStyle="light-content" backgroundColor="#000000" />
+    //     <Camera
+    //       style={{ width: "100%", height: "70%" }}
+    //       device={device}
+    //       isActive={!isScanned}
+    //       frameProcessor={frameProcessor}
+    //       frameProcessorFps={10}
+    //       audio={false}
+    //     />
+    //     <RNHoleView
+    //       holes={[
+    //         {
+    //           x: wp("8.5%"),
+    //           y: hp("26%"),
+    //           width: wp("83%"),
+    //           height: hp("20%"),
+    //           borderRadius: 10,
+    //         },
+    //       ]}
+    //       style={styles.rnholeView}
+    //     />
+    //     <TouchableOpacity
+    //       onPress={() => resetBarcode()}
+    //       style={{
+    //         width: 200,
+    //         marginTop: 50,
+    //         height: 80,
+    //         borderRadius: 10,
+    //         backgroundColor: mainBlue,
+    //         alignSelf: "center",
+    //         alignItems: "center",
+    //         justifyContent: "center",
+    //       }}
+    //     >
+    //       <Text1 style={{ color: "white" }}>Reset</Text1>
+    //     </TouchableOpacity>
+    //   </>
     // )
   );
 };

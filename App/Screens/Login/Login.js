@@ -80,9 +80,10 @@ const Login = (props) => {
         autoCapitalize="none"
         placeholder="Email Address"
         fieldValue={email}
-        keyboardType={"email-address"}
+        keyboardType={"default"}
         // onSubmitEditing={() => onSubmitEmailEditingFunction()}
         // autoFocus={true}
+        keyboardType={"email-address"}
         blurOnSubmit={false}
         onChangeField={(text) => {setIncorrectCredentials(false); setEmail(text);}}
       />
@@ -114,53 +115,49 @@ const Login = (props) => {
         password: password,
       };
       const link = `${devBaseURL}/applogin`;
-      console.log('Attempting login with URL:', link);
+      console.log(link);
       
-      try {
-        const response = await axios.post(link, body, {
+      await axios
+        .post(link, body, {
           headers: {
             "Content-Type": "application/json",
           }
-        });
-        
-        console.log("Response from .ca domain:", response.data);
-        const { access_token, DealershipName, message, status } = response.data;
-        if (status == "200") {
-          logIn(access_token, DealershipName, devBaseURL);
-          console.log("Login successful with:", { access_token, DealershipName });
-        } else {
-          console.log("Login failed with status:", status, "message:", message);
-          setIncorrectCredentials(true);
-          setSpinner(false);
-        }
-      } catch (e) {
-        console.log("Error with .ca domain:", e.response?.data || e.message);
-        // Try .com domain
-        try {
-          let newUrl = devBaseURL.replace(".ca", ".com");
-          console.log('Attempting login with alternate URL:', newUrl);
-          
-          const response = await axios.post(`${newUrl}/applogin`, body, {
-            headers: {
-              "Content-Type": "application/json",
-            }
-          });
-          
-          console.log("Response from .com domain:", response.data);
+        })
+        .then((response) => {
+          console.log("devBaseURL then",devBaseURL)
+          console.log(response.data);
           const { access_token, DealershipName, message, status } = response.data;
           if (status == "200") {
-            logIn(access_token, DealershipName, newUrl);
-            console.log("Login successful with:", { access_token, DealershipName });
-          } else {
-            console.log("Login failed with status:", status, "message:", message);
-            setIncorrectCredentials(true);
+            logIn(access_token, DealershipName, devBaseURL);
+            console.log(access_token, DealershipName);
           }
-        } catch (e2) {
-          console.log("Error with .com domain:", e2.response?.data || e2.message);
-          setIncorrectCredentials(true);
-        }
-        setSpinner(false);
-      }
+          setSpinner(false);
+        })
+        .catch(async (e) => {
+          //do other calls
+          console.log("devBaseURL",devBaseURL)
+          let newUrl = devBaseURL.replace(".ca", ".com");
+          console.log(`${newUrl}/applogin`)
+          console.log(body)
+          await axios
+            .post(`${newUrl}/applogin`, body, {
+              headers: {
+                "Content-Type": "application/json",
+              }
+            }).then((response) => {
+              console.log(response.data);
+              const { access_token, DealershipName, message, status } = response.data;
+              if (status == "200") {
+                logIn(access_token, DealershipName, newUrl);
+                console.log(access_token, DealershipName);
+              }
+              setSpinner(false);
+            }).catch((e2) => {
+              setSpinner(false);
+              console.log(e2);
+              setIncorrectCredentials(true)
+            });
+        });
     } else {
       setSpinner(false);
     }

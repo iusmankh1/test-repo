@@ -31,7 +31,7 @@ import { Colors } from "react-native/Libraries/NewAppScreen";
 import { logIn } from "../../Redux/Actions/authActions";
 import { NavigationContainer } from "@react-navigation/native";
 import { connect } from "react-redux";
-const axios = require("axios");
+import axios from "axios";
 
 const Login = (props) => {
   const { navigation, logIn } = props;
