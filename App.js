@@ -13,6 +13,7 @@ import Router from './App/Routes';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { AppRegistry } from 'react-native';
 
 const App = () => {
   return (
@@ -29,5 +30,7 @@ const App = () => {
     </Provider>
   );
 };
+
+AppRegistry.registerComponent('AutoBunnyDealerSolutions', () => App);
 
 export default App; 

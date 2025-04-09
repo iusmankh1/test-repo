@@ -28,6 +28,16 @@ end
 target 'AutoBunnyDealerSolutions' do
   config = use_native_modules!
 
+  # Add permissions
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+
+  # Add specific permissions you need
+  require_relative '../node_modules/react-native-permissions/scripts/setup'
+  setup_permissions([
+    'Camera',
+    'PhotoLibrary'
+  ])
+
   use_react_native!(
     :path => config[:reactNativePath],
     # Enables Flipper.
