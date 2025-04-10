@@ -908,9 +908,7 @@ PODS:
     - React
   - react-native-spinkit (1.4.1):
     - React
-  - react-native-view-shot (4.0.3):
-    - glog
-    - RCT-Folly (= 2022.05.16.00)
+  - react-native-view-shot (3.8.0):
     - React-Core
   - React-nativeconfig (0.73.4)
   - React-NativeModulesApple (0.73.4):
@@ -1085,7 +1083,7 @@ PODS:
     - React-Core
   - RNFS (2.20.0):
     - React-Core
-  - RNGestureHandler (2.25.0):
+  - RNGestureHandler (2.14.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1386,7 +1384,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: bf9d9d58f0f6726d4a6257088044c2595017579d
   react-native-signature-capture: 181e11f5559b4e4a6da893775e78b5d600f66d66
   react-native-spinkit: 96a74c3519fab0eded2ab8c285f774aa3f4b7944
-  react-native-view-shot: c9f7226fdf79df0318024d1f1485709debc93262
+  react-native-view-shot: d1a701eb0719c6dccbd20b4bb43b1069f304cb70
   React-nativeconfig: d7af5bae6da70fa15ce44f045621cf99ed24087c
   React-NativeModulesApple: 7a561c2792b0a2b74aff6c58d2554dcf824372aa
   React-perflogger: 8a1e1af5733004bdd91258dcefbde21e0d1faccd
@@ -1410,7 +1408,7 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: b9f5f78da5d16a853fe3dc22e8268d932fc45a83
   RNCPicker: 124b4fb5859ba1a3fd53a91e16d1e7a0fc016e59
   RNFS: 89de7d7f4c0f6bafa05343c578f61118c8282ed8
-  RNGestureHandler: a94c078753bc3cd6ba6c8f47295ea399d38b8a56
+  RNGestureHandler: 7c72d2c6f7e1cfd960527a226d85d2f26d1be8cd
   RNImageCropPicker: b0afedeefd8655254a15c34103718455fde6ce59
   RNPermissions: ee9fad4ee750db12189c1be81429497c8f1492c1
   RNReanimated: 442237ccdfc5f44e3498b6aaa85590b65f968b25
