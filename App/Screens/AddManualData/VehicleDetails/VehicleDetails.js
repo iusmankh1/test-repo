@@ -35,7 +35,7 @@ import {
 } from "../../../Assets/colors/colors";
 import { devBaseURL } from "../../../Config/networkModule";
 import Spinner from "react-native-loading-spinner-overlay";
-import axios from "axios";
+const axios = require("axios");
 import filter from "lodash.filter";
 import { connect } from "react-redux";
 

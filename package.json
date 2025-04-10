@@ -1,5 +1,5 @@
 {
-  "name": "AutoBunnyDealerSolutions",
+  "name": "AutoBunny Dealer Solutions",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -41,7 +41,6 @@
     "react-native-keyboard-aware-scrollview": "^2.1.0",
     "react-native-loading-spinner-overlay": "^3.0.1",
     "react-native-modal": "^14.0.0-rc.1",
-    "react-native-nested-scroll-view": "^9.0.0",
     "react-native-paper": "^5.13.1",
     "react-native-paper-dates": "^0.22.40",
     "react-native-parallax-header": "^1.1.4",
