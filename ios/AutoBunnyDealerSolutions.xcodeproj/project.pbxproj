@@ -12,8 +12,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C2228F18DABE56880C44437D /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F88ECB33095FB62CF7117D0 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a */; };
-		E03D2E50290071A3E053ED93 /* libPods-AutoBunnyDealerSolutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9F38B7ADDBECAF34AE2400 /* libPods-AutoBunnyDealerSolutions.a */; };
+		AFE185F647E70D52128A0C7C /* libPods-AutoBunnyDealerSolutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639D2566C1D289FAA93C0843 /* libPods-AutoBunnyDealerSolutions.a */; };
+		D5E8D6BCBF58CD286471ED56 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F2C08B3A44147E1FE8B077 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AutoBunnyDealerSolutions/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AutoBunnyDealerSolutions/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AutoBunnyDealerSolutions/main.m; sourceTree = "<group>"; };
-		4AD547D03B54AF8018BD65BA /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig"; sourceTree = "<group>"; };
-		50038B5490A2CF44DA86646E /* Pods-AutoBunnyDealerSolutions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions.release.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions.release.xcconfig"; sourceTree = "<group>"; };
-		7F88ECB33095FB62CF7117D0 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639D2566C1D289FAA93C0843 /* libPods-AutoBunnyDealerSolutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoBunnyDealerSolutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AutoBunnyDealerSolutions/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EC975DF066D31BFE07D11D6 /* Pods-AutoBunnyDealerSolutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions.debug.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions.debug.xcconfig"; sourceTree = "<group>"; };
-		CD9F38B7ADDBECAF34AE2400 /* libPods-AutoBunnyDealerSolutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoBunnyDealerSolutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6BE4A0F740A39E8EBC93A78 /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90DD69476901733347702308 /* Pods-AutoBunnyDealerSolutions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions.release.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions.release.xcconfig"; sourceTree = "<group>"; };
+		9AC25471D5B0E65782F5821E /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9684FA83442AD1CEF349446 /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA8D3B45611FCD6D57B0AAB3 /* Pods-AutoBunnyDealerSolutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoBunnyDealerSolutions.debug.xcconfig"; path = "Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F2C08B3A44147E1FE8B077 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2228F18DABE56880C44437D /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a in Frameworks */,
+				D5E8D6BCBF58CD286471ED56 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E03D2E50290071A3E053ED93 /* libPods-AutoBunnyDealerSolutions.a in Frameworks */,
+				AFE185F647E70D52128A0C7C /* libPods-AutoBunnyDealerSolutions.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CD9F38B7ADDBECAF34AE2400 /* libPods-AutoBunnyDealerSolutions.a */,
-				7F88ECB33095FB62CF7117D0 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a */,
+				639D2566C1D289FAA93C0843 /* libPods-AutoBunnyDealerSolutions.a */,
+				E5F2C08B3A44147E1FE8B077 /* libPods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8EC975DF066D31BFE07D11D6 /* Pods-AutoBunnyDealerSolutions.debug.xcconfig */,
-				50038B5490A2CF44DA86646E /* Pods-AutoBunnyDealerSolutions.release.xcconfig */,
-				E6BE4A0F740A39E8EBC93A78 /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig */,
-				4AD547D03B54AF8018BD65BA /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig */,
+				CA8D3B45611FCD6D57B0AAB3 /* Pods-AutoBunnyDealerSolutions.debug.xcconfig */,
+				90DD69476901733347702308 /* Pods-AutoBunnyDealerSolutions.release.xcconfig */,
+				C9684FA83442AD1CEF349446 /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig */,
+				9AC25471D5B0E65782F5821E /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AutoBunnyDealerSolutionsTests" */;
 			buildPhases = (
-				4A32D303EB023076F55BFBB0 /* [CP] Check Pods Manifest.lock */,
+				EEF543A877BF3B9B498F0682 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7989C1AABD56DA3EBA25FB12 /* [CP] Embed Pods Frameworks */,
-				100A1625B98DF8D826D94BE0 /* [CP] Copy Pods Resources */,
+				8FC6CAA31F2C4B0FFE22A8BE /* [CP] Embed Pods Frameworks */,
+				EA3276D82A71F2ECAB83F03E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AutoBunnyDealerSolutions" */;
 			buildPhases = (
-				9AEBE6E48AD08C72AC42FBE3 /* [CP] Check Pods Manifest.lock */,
+				800932369A10BE57B9D2C24A /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				52B2CACE58706FA8A1863DC3 /* [CP] Embed Pods Frameworks */,
-				CE6AC92DD6367FCE90CEBC8F /* [CP] Copy Pods Resources */,
+				1A37AA89F5BD452635F578C2 /* [CP] Embed Pods Frameworks */,
+				47C6865E2EA00F258592BAEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,46 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		100A1625B98DF8D826D94BE0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A32D303EB023076F55BFBB0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		52B2CACE58706FA8A1863DC3 /* [CP] Embed Pods Frameworks */ = {
+		1A37AA89F5BD452635F578C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,24 +282,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7989C1AABD56DA3EBA25FB12 /* [CP] Embed Pods Frameworks */ = {
+		47C6865E2EA00F258592BAEB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9AEBE6E48AD08C72AC42FBE3 /* [CP] Check Pods Manifest.lock */ = {
+		800932369A10BE57B9D2C24A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,21 +321,60 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CE6AC92DD6367FCE90CEBC8F /* [CP] Copy Pods Resources */ = {
+		8FC6CAA31F2C4B0FFE22A8BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions/Pods-AutoBunnyDealerSolutions-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3276D82A71F2ECAB83F03E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF543A877BF3B9B498F0682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6BE4A0F740A39E8EBC93A78 /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig */;
+			baseConfigurationReference = C9684FA83442AD1CEF349446 /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AD547D03B54AF8018BD65BA /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig */;
+			baseConfigurationReference = 9AC25471D5B0E65782F5821E /* Pods-AutoBunnyDealerSolutions-AutoBunnyDealerSolutionsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,11 +461,11 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC975DF066D31BFE07D11D6 /* Pods-AutoBunnyDealerSolutions.debug.xcconfig */;
+			baseConfigurationReference = CA8D3B45611FCD6D57B0AAB3 /* Pods-AutoBunnyDealerSolutions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = CCPLAZ5S4V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AutoBunnyDealerSolutions/Info.plist;
@@ -474,7 +474,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.99;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -490,11 +490,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50038B5490A2CF44DA86646E /* Pods-AutoBunnyDealerSolutions.release.xcconfig */;
+			baseConfigurationReference = 90DD69476901733347702308 /* Pods-AutoBunnyDealerSolutions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = CCPLAZ5S4V;
 				INFOPLIST_FILE = AutoBunnyDealerSolutions/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "AutoBunny Dealer Solutions";
@@ -502,7 +502,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.99;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -584,10 +584,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -655,10 +652,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

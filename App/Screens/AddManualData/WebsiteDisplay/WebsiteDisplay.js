@@ -37,7 +37,7 @@ import {
   blackThree,
 } from '../../../Assets/colors/colors';
 import Spinner from 'react-native-loading-spinner-overlay';
-const axios = require('axios');
+import axios from "axios";
 import {connect} from 'react-redux';
 import {useEffect} from 'react';
 import {CommonActions} from '@react-navigation/native';

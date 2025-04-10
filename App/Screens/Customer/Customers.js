@@ -31,7 +31,7 @@ import SearchBar from "react-native-dynamic-search-bar";
 import filter from "lodash.filter";
 import { logOut } from "../../Redux/Actions/authActions";
 
-var axios = require("axios");
+import axios from "axios";
 
 const Customers = (props) => {
   const { navigation, accessToken, baseUrl, dealer, logOut } = props;
